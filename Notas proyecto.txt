@@ -1,0 +1,2 @@
+Acceso por niveles de autorizacion
+Solicitudes entre perfiles de usuarios dependiendo del rango, comunicacion constante incluso dentro de la Plataforma.
