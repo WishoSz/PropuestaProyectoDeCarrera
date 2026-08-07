@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" agent="OpenAI">
+  <diagram id="flujo-vacunas" name="Flujo Sistema Vacunas">
+    <mxGraphModel dx="3706" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=none;" vertex="1">
+          <mxGeometry height="1190" width="1400" x="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#2563eb;fillColor=#dbeafe;fontSize=16;fontStyle=1;fontColor=#1e3a8a;align=center;verticalAlign=middle;" value="Inicio" vertex="1">
+          <mxGeometry height="48" width="175" x="612" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-1" edge="1" parent="1" source="cred" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="adminNote">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cred" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#fb923c;fillColor=#fff7ed;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="¿El usuario ya cuenta con credenciales?" vertex="1">
+          <mxGeometry height="115" width="235" x="583" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Ingreso de credenciales (usuario y contraseña)" vertex="1">
+          <mxGeometry height="72" width="290" x="555" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-7" edge="1" parent="1" source="valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="errorBox">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-12" edge="1" parent="1" source="valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="bv17YSOKAFMClLQQ_tSE-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="valid" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#fb923c;fillColor=#fff7ed;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="¿Credenciales válidas?" vertex="1">
+          <mxGeometry height="105" width="220" x="590" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="logout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;strokeColor=#64748b;fillColor=#f1f5f9;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="Cerrar sesión" vertex="1">
+          <mxGeometry height="58" width="290" x="555.5" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#475569;fillColor=#e2e8f0;fontSize=16;fontStyle=1;fontColor=#0f172a;align=center;verticalAlign=middle;" value="Fin" vertex="1">
+          <mxGeometry height="44" width="165" x="618" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-4" edge="1" parent="1" source="adminNote" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;" target="login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adminNote" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Administrador del sistema registra al personal y asigna credenciales" vertex="1">
+          <mxGeometry height="88" width="250" x="180" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-5" edge="1" parent="1" source="errorBox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="login">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="errorBox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;strokeColor=#f43f5e;fillColor=#fff1f2;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="Mostrar mensaje de error y permitir un nuevo intento" vertex="1">
+          <mxGeometry height="86" width="270" x="960" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-23" edge="1" parent="1" source="personModule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="again">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="personModule" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Accede al módulo de registro y actualización de vacunas" vertex="1">
+          <mxGeometry height="76" width="340" x="165" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="authModule" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="&lt;br&gt;Accede al modulo de visualización y consulta consolidada" vertex="1">
+          <mxGeometry height="76" width="350" x="905" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="again" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#d6b656;fillColor=#FFF7ED;fontSize=15;align=center;verticalAlign=middle;" value="¿Desea realizar otra acción?" vertex="1">
+          <mxGeometry height="100" width="240" x="578" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="cred">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="cred" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="valid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="logout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lblNoCred" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="No" vertex="1">
+          <mxGeometry height="20" width="32" x="450" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lblYesCred" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="Sí" vertex="1">
+          <mxGeometry height="20" width="32" x="700" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="lblYesValid" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="Sí" vertex="1">
+          <mxGeometry height="18" width="28" x="890" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="lblNoValid" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="No" vertex="1">
+          <mxGeometry height="18" width="28" x="890" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="again" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="logout">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="840" />
+              <mxPoint x="700" y="889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lblAgainYes" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="No" vertex="1">
+          <mxGeometry height="18" width="28" x="422" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="lblAgainNo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="No" vertex="1">
+          <mxGeometry height="18" width="28" x="704" y="873" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-14" edge="1" parent="1" source="bv17YSOKAFMClLQQ_tSE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="personModule">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-16" edge="1" parent="1" source="bv17YSOKAFMClLQQ_tSE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="authModule">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#fb923c;fillColor=#fff7ed;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="¿Es autoridad del centro de salud de San Marcos?" vertex="1">
+          <mxGeometry height="130.5" width="220" x="590" y="599.75" as="geometry" />
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-24" edge="1" parent="1" source="authModule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
