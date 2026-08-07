@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="epMWzft-fmyHi9w5vmns">
+    <mxGraphModel dx="2268" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-6" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-2" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="477.5" />
+              <mxPoint x="40" y="477.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#dae8fc;gradientColor=#8ED2FF;strokeColor=#6c8ebf;strokeWidth=2;fontColor=default;" value="&lt;b style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12pt; line-height: 17.12px;&quot;&gt;&amp;nbsp;SISTEMA WEB CENTRALIZADO Y DISTRITAL PARA LA&lt;br&gt;GESTIÓN DE VACUNAS EN EL CENTRO DE SALUD DEL DEPARTAMENTO DE SAN MARCOS&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="247" width="247" x="290" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-4" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-3" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.185;entryY=0.103;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="452.5" />
+              <mxPoint x="300" y="452.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-5" connectable="0" parent="8-AeqlOmScJDMBQSzOTH-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Registrar y actualizar la información&lt;div&gt;de las vacunas disponibles en su centro.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1219" y="1" as="geometry">
+            <mxPoint x="18" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#edf3fd, #1d293b);gradientColor=light-dark(#CCE5FF,#436697);gradientDirection=west;" value="Encargado de registro de cada centro de salud" vertex="1">
+          <mxGeometry height="50" width="180" x="-200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-7" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Reportes de vacunas&amp;nbsp;&lt;div&gt;disponibles para su centro de salud.&lt;/div&gt;&lt;div&gt;Alertas de fechas de vencimiento.&lt;/div&gt;" vertex="1">
+          <mxGeometry x="160" y="500" as="geometry">
+            <mxPoint x="-10" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-9" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-8" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="692.5" />
+            </Array>
+            <mxPoint x="280" y="670.6060606060607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#edf3fd, #1d293b);gradientColor=light-dark(#CCE5FF,#436697);gradientDirection=west;" value="Autoridades del Centro de Salud de San Marcos" vertex="1">
+          <mxGeometry height="50" width="180" x="-200" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-10" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-8" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.259;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="717.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-11" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Credenciales de acceso." vertex="1">
+          <mxGeometry x="150" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-12" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;Reportes de vacunas disponibles,&amp;nbsp;&lt;/div&gt;&lt;div&gt;consolidada y distrital&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;ara la toma de decisiones.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry x="150" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#edf3fd, #1d293b);gradientColor=light-dark(#CCE5FF,#436697);strokeColor=#6c8ebf;gradientDirection=west;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Administrador del sistema&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="790" y="559.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-15" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.997;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-16" edge="1" parent="1" source="8-AeqlOmScJDMBQSzOTH-14" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.997;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=light-dark(#828282,#EDEDED);" target="8-AeqlOmScJDMBQSzOTH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-21" connectable="0" parent="8-AeqlOmScJDMBQSzOTH-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Información de los usuarios&amp;nbsp;&lt;div&gt;activos, su actividad y restricciones.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0283" y="4" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-AeqlOmScJDMBQSzOTH-17" parent="1" style="text;whiteSpace=wrap;align=center;" value="Gestión de usuarios los usuarios &#xa;y las credenciales de acceso" vertex="1">
+          <mxGeometry height="40" width="180" x="580" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
