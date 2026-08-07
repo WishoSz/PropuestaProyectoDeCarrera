@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="OpenAI">
   <diagram id="flujo-vacunas" name="Flujo Sistema Vacunas">
-    <mxGraphModel dx="3496" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bg" parent="1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=none;" vertex="1">
-          <mxGeometry height="1190" width="1400" x="-30" as="geometry" />
+          <mxGeometry height="1190" width="1400" x="18" as="geometry" />
         </mxCell>
         <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#2563eb;fillColor=#dbeafe;fontSize=16;fontStyle=1;fontColor=#1e3a8a;align=center;verticalAlign=middle;" value="Inicio" vertex="1">
           <mxGeometry height="48" width="175" x="612" y="50" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cred" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#fb923c;fillColor=#fff7ed;fontSize=15;fontColor=#111827;align=center;verticalAlign=middle;" value="¿El usuario ya cuenta con credenciales?" vertex="1">
-          <mxGeometry height="115" width="235" x="583" y="120" as="geometry" />
+          <mxGeometry height="115" width="235" x="583" y="130" as="geometry" />
         </mxCell>
         <mxCell id="login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="Ingreso de credenciales (usuario y contraseña)" vertex="1">
           <mxGeometry height="72" width="290" x="555" y="340" as="geometry" />
@@ -65,7 +65,7 @@
         <mxCell id="again" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#d6b656;fillColor=#FFF7ED;fontSize=15;align=center;verticalAlign=middle;" value="¿Desea realizar otra acción?" vertex="1">
           <mxGeometry height="100" width="240" x="580" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="cred">
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;entryX=0.498;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" target="cred">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="cred" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="login">
