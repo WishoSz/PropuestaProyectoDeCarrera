@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="OpenAI">
   <diagram id="flujo-vacunas" name="Flujo Sistema Vacunas">
-    <mxGraphModel dx="3706" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="3496" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,8 +59,11 @@
         <mxCell id="authModule" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeWidth=2;fontSize=15;align=center;verticalAlign=middle;" value="&lt;br&gt;Accede al modulo de visualización y consulta consolidada" vertex="1">
           <mxGeometry height="76" width="350" x="905" y="815" as="geometry" />
         </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-26" edge="1" parent="1" source="again" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="bv17YSOKAFMClLQQ_tSE-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="again" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#d6b656;fillColor=#FFF7ED;fontSize=15;align=center;verticalAlign=middle;" value="¿Desea realizar otra acción?" vertex="1">
-          <mxGeometry height="100" width="240" x="578" y="770" as="geometry" />
+          <mxGeometry height="100" width="240" x="580" y="773" as="geometry" />
         </mxCell>
         <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#334155;strokeWidth=2;endArrow=block;endFill=1;" target="cred">
           <mxGeometry relative="1" as="geometry" />
@@ -81,7 +84,7 @@
           <mxGeometry height="20" width="32" x="700" y="308" as="geometry" />
         </mxCell>
         <mxCell id="lblYesValid" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="Sí" vertex="1">
-          <mxGeometry height="18" width="28" x="890" y="702" as="geometry" />
+          <mxGeometry height="18" width="28" x="905" y="680" as="geometry" />
         </mxCell>
         <mxCell id="lblNoValid" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="No" vertex="1">
           <mxGeometry height="18" width="28" x="890" y="475" as="geometry" />
@@ -113,6 +116,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="820" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bv17YSOKAFMClLQQ_tSE-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#334155;" value="Sí" vertex="1">
+          <mxGeometry height="18" width="28" x="704" y="743" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
