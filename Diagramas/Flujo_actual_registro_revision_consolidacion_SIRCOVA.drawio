@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-21T22:27:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="sircova-flujo-actual" name="Flujo actual DDRISS San Marcos">
+    <mxGraphModel dx="1050" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1010" pageHeight="1712" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="titulo" value="FLUJO ACTUAL DE REGISTRO, REVISIÓN Y CONSOLIDACIÓN" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;fontColor=#17324D;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72" y="32" width="866" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitulo" value="Producción mensual de vacunación · DDRISS San Marcos · situación institucional documentada en 2026" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#526477;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72" y="80" width="866" height="31" as="geometry"/>
+        </mxCell>
+        <mxCell id="inicio" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fillColor=#285779;strokeColor=#285779;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="435" y="133" width="140" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="registro" value="&lt;b&gt;Servicios de salud&lt;/b&gt;&lt;br&gt;Registro de dosis administradas y procedencia de las personas vacunadas" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="208" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="municipal" value="&lt;b&gt;Consolidación municipal&lt;/b&gt;&lt;br&gt;Un establecimiento responsable reúne la producción de su municipio" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="323" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="form5c" value="&lt;b&gt;Formulario 5C&lt;/b&gt;&lt;br&gt;Reporte mensual de producción de vacunación por municipio" style="shape=document;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#1C3852;fillColor=#F0F6FB;strokeColor=#4E88AD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="438" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="recepcion" value="&lt;b&gt;DDRISS San Marcos&lt;/b&gt;&lt;br&gt;Recepción de formularios y organización de la información recibida" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="553" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="excel1" value="&lt;b&gt;Estadígrafa · Excel 1&lt;/b&gt;&lt;br&gt;Digitación de la producción administrada a residentes del propio municipio" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=16;fontColor=#1C3852;fillColor=#E9F3FA;strokeColor=#4E88AD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="668" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="verificacion" value="&lt;b&gt;Verificación presencial de los registros&lt;/b&gt;&lt;br&gt;Representantes de 30 municipios · 10 por jornada durante 3 días" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="783" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="procesamiento" value="&lt;b&gt;Estadígrafa · consolidación&lt;/b&gt;&lt;br&gt;Organización de la producción total y la atribución por residencia" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="898" width="520" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="bifurcacion" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#285779;strokeColor=#285779;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1006" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="excel2" value="&lt;b&gt;Excel 2 · Producción total&lt;/b&gt;&lt;br&gt;Total de dosis aplicadas, sin distinción de origen" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=16;fontColor=#1C3852;fillColor=#E9F3FA;strokeColor=#4E88AD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="117" y="1066" width="360" height="96" as="geometry"/>
+        </mxCell>
+        <mxCell id="excel3" value="&lt;b&gt;Excel 3 · Cobertura&lt;/b&gt;&lt;br&gt;Dosis atribuidas por municipio de residencia" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=16;fontColor=#1C3852;fillColor=#E9F3FA;strokeColor=#4E88AD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="533" y="1066" width="360" height="96" as="geometry"/>
+        </mxCell>
+        <mxCell id="union" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#285779;strokeColor=#285779;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1207" width="10" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="ti" value="&lt;b&gt;Tecnología e Informática&lt;/b&gt;&lt;br&gt;Revisión posterior de la información consolidada" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1260" width="520" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="epidemiologia" value="&lt;b&gt;Departamento de Epidemiología&lt;/b&gt;&lt;br&gt;Cálculo y análisis de coberturas: Excel 3 y poblaciones objetivo" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1367" width="520" height="76" as="geometry"/>
+        </mxCell>
+        <mxCell id="consejo" value="&lt;b&gt;Consejo técnico&lt;/b&gt;&lt;br&gt;Presentación y utilización de los resultados de cobertura" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Arial;fontSize=17;fontColor=#18354E;fillColor=#FFFFFF;strokeColor=#6692B3;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1484" width="520" height="66" as="geometry"/>
+        </mxCell>
+        <mxCell id="fin" value="Fin" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fillColor=#285779;strokeColor=#285779;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1589" width="140" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="leyenda" value="Aclaración posterior (18/10/2026): el Hospital de San Marcos entrega un 5C adicional; su producción se incorpora únicamente al Excel 3." style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=7;fontFamily=Arial;fontSize=14;fontColor=#5C6873;fillColor=#F7F8FA;strokeColor=#BBC7D0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="77" y="1648" width="855" height="43" as="geometry"/>
+        </mxCell>
+        <mxCell id="paso_1" value="ORIGEN" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontStyle=1;fontColor=#60758A;fillColor=#EFF3F6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="326" width="130" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="paso_2" value="RECEPCIÓN" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontStyle=1;fontColor=#60758A;fillColor=#EFF3F6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="559" width="130" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="paso_3" value="VERIFICACIÓN" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontStyle=1;fontColor=#60758A;fillColor=#EFF3F6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="791" width="130" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="paso_4" value="PROCESAMIENTO" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontStyle=1;fontColor=#60758A;fillColor=#EFF3F6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="71" y="903" width="143" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="paso_5" value="ANÁLISIS" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontStyle=1;fontColor=#60758A;fillColor=#EFF3F6;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1379" width="130" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_0" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="inicio" target="registro">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="registro" target="municipal">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="municipal" target="form5c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="form5c" target="recepcion">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="recepcion" target="excel1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="excel1" target="verificacion">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="verificacion" target="procesamiento">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_seq_7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="procesamiento" target="bifurcacion">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_split_left" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="bifurcacion" target="excel2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="1044"/>
+              <mxPoint x="297" y="1044"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_split_right" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="bifurcacion" target="excel3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="1044"/>
+              <mxPoint x="713" y="1044"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_merge_left" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="excel2" target="union">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="1187"/>
+              <mxPoint x="505" y="1187"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_merge_right" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="excel3" target="union">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="713" y="1187"/>
+              <mxPoint x="505" y="1187"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_after_merge" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="union" target="ti">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_to_epi" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="ti" target="epidemiologia">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_to_consejo" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="epidemiologia" target="consejo">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_end" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4D6D89;strokeWidth=2.1;" edge="1" parent="1" source="consejo" target="fin">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
