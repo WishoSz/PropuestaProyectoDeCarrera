@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de contexto" id="6TV1OgPrbNc3ZOfJgnqs">
+    <mxGraphModel dx="1956" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SgHPNS5SdyO-gy85janc-26" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600.06" y="920.06" />
+              <mxPoint x="1200.06" y="920.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-22" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;exitX=0.528;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="SgHPNS5SdyO-gy85janc-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415.4" y="920.02" />
+              <mxPoint x="800.07" y="920.02" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="DEPARTAMENTO DE EPIDEMIOLOGÍA" vertex="1">
+          <mxGeometry height="115" width="370" x="1420" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="ESTADÍGRAFA / PERSONAL REVISOR DE LA DDRISS" vertex="1">
+          <mxGeometry height="110" width="360" x="1420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="ESTABLECIMIENTOS DE SALUD" vertex="1">
+          <mxGeometry height="95" width="500" x="750" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;strokeColor=#000000;fillColor=#000000;fontColor=#ffffff;" value="AUTORIDADES DE LA DDRISS&#xa;CON PERMISOS DE CONSULTA" vertex="1">
+          <mxGeometry height="115" width="370" x="220" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;fontColor=#ffffff;" value="ADMINISTRADOR DEL SISTEMA" vertex="1">
+          <mxGeometry height="110" width="360" x="220" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=24;fontStyle=1;fontColor=#111111;" value="Diagrama de contexto del sistema web de vacunación" vertex="1">
+          <mxGeometry height="45" width="1400" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontColor=#555555;" value="DFD de contexto — Proceso 0, entidades externas y flujos de datos" vertex="1">
+          <mxGeometry height="30" width="960" x="520" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="ESTABLECIMIENTOS DE SALUD" vertex="1">
+          <mxGeometry height="95" width="500" x="760" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="ADMINISTRADOR DEL SISTEMA" vertex="1">
+          <mxGeometry height="110" width="360" x="230" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="ESTADÍGRAFA / PERSONAL REVISOR DE LA DDRISS" vertex="1">
+          <mxGeometry height="110" width="360" x="1430" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="AUTORIDADES DE LA DDRISS&#xa;CON PERMISOS DE CONSULTA" vertex="1">
+          <mxGeometry height="115" width="370" x="230" y="987.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=2;fontFamily=Arial;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" value="DEPARTAMENTO DE EPIDEMIOLOGÍA" vertex="1">
+          <mxGeometry height="115" width="370" x="1430" y="987.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-8" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;strokeWidth=3;fontFamily=Arial;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;spacing=12;fillColor=#F7F7F7;strokeColor=#666666;fontColor=#333333;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 37px;&quot;&gt;SIRCOVA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="220" width="600" x="700" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-10" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="360" />
+              <mxPoint x="840" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-11" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="360" />
+              <mxPoint x="1160" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-12" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Credenciales de acceso&#xa;Producción de vacunación&#xa;Procedencia territorial&#xa;Correcciones y envío del reporte" vertex="1">
+          <mxGeometry height="65" width="200" x="850" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-13" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Esquema de captura vigente&lt;br&gt;Resultados de validación&lt;br&gt;Observaciones y&amp;nbsp;&lt;div&gt;estado del reporte&lt;br&gt;Confirmaciones de envío&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="200" x="950" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-14" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-15" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310.08" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-16" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Usuarios y roles&#xa;Catálogos y vacunas&#xa;Poblaciones objetivo&#xa;Esquemas y reglas de configuración" vertex="1">
+          <mxGeometry height="65" width="250" x="410" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-17" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Confirmaciones de configuración&#xa;Usuarios y catálogos vigentes&#xa;Bitácoras e información administrativa" vertex="1">
+          <mxGeometry height="55" width="250" x="410" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-18" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-19" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680.06" y="680.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-20" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Resultado de revisión&#xa;Observaciones de revisión&#xa;Aprobación y cierre&#xa;Solicitud/autorización de rectificación" vertex="1">
+          <mxGeometry height="65" width="230" x="1340" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-21" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Reportes enviados&#xa;Resultados de validación&#xa;Pendientes de revisión&#xa;Estados e información consolidada" vertex="1">
+          <mxGeometry height="65" width="230" x="1340" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-23" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;" target="SgHPNS5SdyO-gy85janc-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-24" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Parámetros de consulta&#xa;Solicitudes de informes" vertex="1">
+          <mxGeometry height="45" width="176" x="520" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-25" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Informes de cobertura&#xa;Indicadores consolidados&#xa;Información de seguimiento" vertex="1">
+          <mxGeometry height="55" width="190" x="660" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-27" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=2;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1050" />
+            </Array>
+            <mxPoint x="1420" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-28" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Parámetros de consulta&#xa;Solicitudes de informes&#xa;Filtros de análisis" vertex="1">
+          <mxGeometry height="55" width="215" x="1310" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-29" parent="1" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;opacity=96;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#222222;whiteSpace=wrap;spacing=3;" value="Indicadores y brechas&#xa;Tasas de deserción&#xa;Proyecciones y alertas&#xa;Información territorial e informes" vertex="1">
+          <mxGeometry height="65" width="250" x="1130" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-37" edge="1" parent="1" source="SgHPNS5SdyO-gy85janc-8" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=light-dark(#666666, #ededed);" target="SgHPNS5SdyO-gy85janc-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="870" y="560" as="sourcePoint" />
+            <mxPoint x="920" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=29;" value="0" vertex="1">
+          <mxGeometry height="30" width="45" x="977.5" y="512.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;strokeColor=light-dark(#444444, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1050" y="310" as="sourcePoint" />
+            <mxPoint x="840" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgHPNS5SdyO-gy85janc-49" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;strokeColor=light-dark(#444444, #ededed);" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="950" y="470" as="sourcePoint" />
+            <mxPoint x="1160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
