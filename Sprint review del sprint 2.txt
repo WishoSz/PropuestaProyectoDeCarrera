@@ -1,0 +1,13 @@
+les parece interesante, les parece muy bien todo el sistema en general
+
+solo que cuando ya terminemos quieren ver pruebas con datos reales, les interesa mucho las salidas
+les gusta lo de borrador porque a veces las enfermeras se equivocan. 
+Al finalizar el año tengan en enero del otro año, ya tener bien la info del año anterior
+
+visualizar los reportes por municipio, cobertura y todo, básicamente ver los 3 excels. Esto les gusta porque el sistema sí tiene contemplado esto
+
+les gustó mucho el apartado de agregar vacunas o poder categorizar por sexo y así, además de poder editarlas porque muchas veces el ministerio hace cambios inesperados
+
+
+--observación-------
+Que el sistema identifique que es de la DDRISS de san marcos, básicamente una etiqueta identificadora.
