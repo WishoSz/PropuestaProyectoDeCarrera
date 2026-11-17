@@ -1,0 +1,16 @@
+-------Sprint review del sprint 4----------------
+Agregar donde están los 30 municipios, agregar los hospitales
+Agregar lo del "filtrado" por redes, hay 5 redes en total 
+Donde se pone el filtro de chequear por cada municipio, en lugar de eso mejor poner las redes 
+
+
+A la doctora carmen le gusta el tablero, dijo que ta bonito
+
+En los indicadores, por lo general para presentar en consejo técnico se presenta el consolidado de cada vacuna por red.
+Necesita ver el esquema completo de vacunación por red, no por vacuna.  (básicamente como la foto del excel)
+
+
+Poder ver el apartado de redes, que posiblemente iban a cambiar las redes, de 5 a 7. Por lo que entiendo un crud de redes
+
+Les gusta el sistema, que está muy completo y avanzado
+
